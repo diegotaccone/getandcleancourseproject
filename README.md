@@ -51,90 +51,175 @@ activity:  Activity peformed in that observation.  There are six observations,  
 Type:       if the observation is in the Train or the Test data.
 
 TBAccMx:	"tbodyacc-mean()-x"
+
 TBAccMy:	"tbodyacc-mean()-y"
+
 TBAccMz:	"tbodyacc-mean()-z"
+
 TBAccSDx:	"tbodyacc-std()-x"
+
 TBAccSDy:	"tbodyacc-std()-y"
+
 TBAccSDz:	"tbodyacc-std()-z"
+
 TGravAccMx:	"tgravityacc-mean()-x"
+
 TGravAccMy:	"tgravityacc-mean()-y"
+
 TGravAccMz:	"tgravityacc-mean()-z"
+
 TGravAccSDx:	"tgravityacc-std()-x"
+
 TGravAccSDy:	"tgravityacc-std()-y"
+
 TGravAccSDz:	"tgravityacc-std()-z"
+
 TBAccJMx:	"tbodyaccjerk-mean()-x"
+
 TBAccJMy:	"tbodyaccjerk-mean()-y"
+
 TBAccJMz:	"tbodyaccjerk-mean()-z"
+
 TBAccJSDx:	"tbodyaccjerk-std()-x"
+
 TBAccJSDy:	"tbodyaccjerk-std()-y"
+
 TBAccJSDz:	"tbodyaccjerk-std()-z"
+
 TBGyMx:	         "tbodygyro-mean()-x"
+
 TBGyMy:  	"tbodygyro-mean()-y"
+
 TBGyMz: 	"tbodygyro-mean()-z"
+
 TBGySDx:	"tbodygyro-std()-x"
+
 TBGySDy:	"tbodygyro-std()-y"
+
 TBGySDz:	"tbodygyro-std()-z"
+
 TBGyJMx:	"tbodygyrojerk-mean()-x"
+
 TBGyJMy:	"tbodygyrojerk-mean()-y"
+
 TBGyJMz:	"tbodygyrojerk-mean()-z"
+
 TBGyJSDx:	"tbodygyrojerk-std()-x"
+
 TBGyJSDy:	"tbodygyrojerk-std()-y"
+
 TBGyJSDz:	"tbodygyrojerk-std()-z"
+
 TBAccMagM:	"tbodyaccmag-mean()"
+
 TBAccMagSD:	"tbodyaccmag-std()"
+
 TGravAccMagM:	"tgravityaccmag-mean()"
+
 TGravAccMagSD:	"tgravityaccmag-std()"
+
 TBAccJMagM:	"tbodyaccjerkmag-mean()"
+
 TBAccJMagSD:	"tbodyaccjerkmag-std()"
+
 TBGyMagM:	"tbodygyromag-mean()"
+
 TBGyMagSD:	"tbodygyromag-std()"
+
 TBGyJMagM:	"tbodygyrojerkmag-mean()"
+
 TBGyJMagSD:	"tbodygyrojerkmag-std()"
+
 FBAccMx:	"fbodyacc-mean()-x"
+
 FBAccMy:	"fbodyacc-mean()-y"
+
 FBAccMz:	"fbodyacc-mean()-z"
+
 FBAccSDx:	"fbodyacc-std()-x"
+
 FBAccSDy:	"fbodyacc-std()-y"
+
 FBAccSDz:	"fbodyacc-std()-z"
+
 FBAccMFrx:	"fbodyacc-meanfreq()-x"
+
 FBAccMFry:	"fbodyacc-meanfreq()-y"
+
 FBAccMFrz:	"fbodyacc-meanfreq()-z"
+
 FBAccJMx:	"fbodyaccjerk-mean()-x"
+
 FBAccJMy:	"fbodyaccjerk-mean()-y"
+
 FBAccJMz:	"fbodyaccjerk-mean()-z"
+
 FBAccJSDx:	"fbodyaccjerk-std()-x"
+
 FBAccJSDy:	"fbodyaccjerk-std()-y"
+
 FBAccJSDz:	"fbodyaccjerk-std()-z"
+
 FBAccJMFrx:	"fbodyaccjerk-meanfreq()-x"
+
 FBAccJMFry:	"fbodyaccjerk-meanfreq()-y"
+
 FBAccJMFrz:	"fbodyaccjerk-meanfreq()-z"
+
 FBGyMx: 	"fbodygyro-mean()-x"
+
 FBGyMy: 	"fbodygyro-mean()-y"
+
 FBGyMz: 	"fbodygyro-mean()-z"
+
 FBGySDx:	"fbodygyro-std()-x"
+
 FBGySDy:	"fbodygyro-std()-y"
+
 FBGySDz:	"fbodygyro-std()-z"
+
 FBGyMFrx:	"fbodygyro-meanfreq()-x"
+
 FBGyMFry:	"fbodygyro-meanfreq()-y"
+
 FBGyMFrz:	"fbodygyro-meanfreq()-z"
+
 FBAccMagM:	"fbodyaccmag-mean()"
+
 FBAccMagSD:	"fbodyaccmag-std()"
+
 FBAccMagMFr:	"fbodyaccmag-meanfreq()"
+
 FBBAccJMagM:	"fbodybodyaccjerkmag-mean()"
+
 FBBAccJMagSD:	"fbodybodyaccjerkmag-std()"
+
 FBBAccJMagMFr:	"fbodybodyaccjerkmag-meanfreq()"
+
 FBBGyMagM:	"fbodybodygyromag-mean()"
+
 FBBGyMagSD:	"fbodybodygyromag-std()"
+
 FBBGyMagMFr:	"fbodybodygyromag-meanfreq()"
+
 FBBGyJMagM:	"fbodybodygyrojerkmag-mean()"
+
 FBBGyJMagSD:	"fbodybodygyrojerkmag-std()"
+
 FBBGyJMagMFr:	"fbodybodygyrojerkmag-meanfreq()"
+
 AntBAccMGrav:	"angle(tbodyaccmean,gravity)"
+
 AntBAccJMGravM:	"angle(tbodyaccjerkmean),gravitymean)"
+
 AntBGyMGravM:	"angle(tbodygyromean,gravitymean)"
+
 AntBGyJMGravM:	"angle(tbodygyrojerkmean,gravitymean)"
+
 AnxGravM:	"angle(x,gravitymean)"
+
 AnyGravM:	"angle(y,gravitymean)"
+
 AnzGravM:	"angle(z,gravitymean)"
 
 
